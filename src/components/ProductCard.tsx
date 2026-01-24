@@ -78,14 +78,14 @@ export function ProductCard({ product }: ProductCardProps) {
             <div>
               <p className="text-xs text-muted-foreground">Retail</p>
               <p className="text-xl font-bold text-foreground">
-                ₹{product.retailPrice}
+                ৳{product.retailPrice}
                 <span className="text-sm font-normal text-muted-foreground">/{product.unit}</span>
               </p>
             </div>
             <div className="text-right">
               <p className="text-xs text-muted-foreground">Wholesale</p>
               <p className="text-sm font-semibold text-primary">
-                ₹{product.wholesalePrice}/{product.unit}
+                ৳{product.wholesalePrice}/{product.unit}
               </p>
               <p className="text-[10px] text-muted-foreground">
                 Min: {product.minWholesaleQty} {product.unit}

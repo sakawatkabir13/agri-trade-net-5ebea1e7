@@ -64,16 +64,16 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0 text-secondary" />
                 <span className="text-sm text-primary-foreground/80">
-                  123 Farm Road, Agricultural District, New Delhi - 110001
+                  123 Krishi Road, Farmgate, Dhaka - 1215, Bangladesh
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-secondary" />
-                <span className="text-sm text-primary-foreground/80">+91 1800-123-4567</span>
+                <span className="text-sm text-primary-foreground/80">+880 1800-123-456</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0 text-secondary" />
-                <span className="text-sm text-primary-foreground/80">support@agrilink.com</span>
+                <span className="text-sm text-primary-foreground/80">support@agrilink.com.bd</span>
               </li>
             </ul>
           </div>

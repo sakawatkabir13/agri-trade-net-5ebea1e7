@@ -163,7 +163,7 @@ export default function ProductDetail() {
                   >
                     <p className="text-sm text-muted-foreground">Retail Price</p>
                     <p className="text-2xl font-bold text-foreground">
-                      ₹{product.retailPrice}
+                      ৳{product.retailPrice}
                       <span className="text-sm font-normal text-muted-foreground">/{product.unit}</span>
                     </p>
                   </button>
@@ -180,7 +180,7 @@ export default function ProductDetail() {
                   >
                     <p className="text-sm text-muted-foreground">Wholesale Price</p>
                     <p className="text-2xl font-bold text-primary">
-                      ₹{product.wholesalePrice}
+                      ৳{product.wholesalePrice}
                       <span className="text-sm font-normal text-muted-foreground">/{product.unit}</span>
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
@@ -212,7 +212,7 @@ export default function ProductDetail() {
                     </div>
                     <div className="flex-1">
                       <p className="text-sm text-muted-foreground">Subtotal</p>
-                      <p className="text-xl font-bold">₹{(currentPrice * quantity).toLocaleString()}</p>
+                      <p className="text-xl font-bold">৳{(currentPrice * quantity).toLocaleString()}</p>
                     </div>
                   </div>
                   {!canUseWholesale && quantity > 0 && (

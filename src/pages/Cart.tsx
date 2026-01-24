@@ -134,10 +134,10 @@ export default function Cart() {
                           {/* Price */}
                           <div className="text-right">
                             <p className="text-sm text-muted-foreground">
-                              ₹{price} × {item.quantity} {item.product.unit}
+                              ৳{price} × {item.quantity} {item.product.unit}
                             </p>
                             <p className="text-lg font-bold">
-                              ₹{(price * item.quantity).toLocaleString()}
+                              ৳{(price * item.quantity).toLocaleString()}
                             </p>
                           </div>
                         </div>
@@ -158,7 +158,7 @@ export default function Cart() {
                 <div className="space-y-3">
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span className="font-medium">₹{subtotal.toLocaleString()}</span>
+                    <span className="font-medium">৳{subtotal.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground flex items-center gap-2">
@@ -169,13 +169,13 @@ export default function Cart() {
                       {deliveryCharge === 0 ? (
                         <span className="text-primary">FREE</span>
                       ) : (
-                        `₹${deliveryCharge}`
+                        `৳${deliveryCharge}`
                       )}
                     </span>
                   </div>
                   {deliveryCharge > 0 && (
                     <p className="text-xs text-muted-foreground">
-                      Free delivery on orders above ₹2,000
+                      Free delivery on orders above ৳2,000
                     </p>
                   )}
                 </div>
@@ -183,7 +183,7 @@ export default function Cart() {
                 <div className="border-t pt-4">
                   <div className="flex justify-between">
                     <span className="font-semibold">Total</span>
-                    <span className="text-2xl font-bold">₹{total.toLocaleString()}</span>
+                    <span className="text-2xl font-bold">৳{total.toLocaleString()}</span>
                   </div>
                 </div>
 
