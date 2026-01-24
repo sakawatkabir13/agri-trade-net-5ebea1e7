@@ -18,7 +18,7 @@ import { Badge } from '@/components/ui/badge';
 const stats = [
   {
     title: 'Total Revenue',
-    value: '₹4,52,890',
+    value: '৳4,52,890',
     change: '+12.5%',
     trend: 'up',
     icon: TrendingUp,
@@ -47,16 +47,16 @@ const stats = [
 ];
 
 const recentOrders = [
-  { id: 'ORD-001', buyer: 'Ravi Kumar', total: '₹12,500', status: 'pending', date: 'Today' },
-  { id: 'ORD-002', buyer: 'Priya Sharma', total: '₹8,200', status: 'dispatched', date: 'Today' },
-  { id: 'ORD-003', buyer: 'Amit Patel', total: '₹25,000', status: 'paid', date: 'Yesterday' },
-  { id: 'ORD-004', buyer: 'Sanjay Gupta', total: '₹5,600', status: 'delivered', date: 'Yesterday' },
+  { id: 'ORD-001', buyer: 'Rahim Uddin', total: '৳12,500', status: 'pending', date: 'Today' },
+  { id: 'ORD-002', buyer: 'Fatima Begum', total: '৳8,200', status: 'dispatched', date: 'Today' },
+  { id: 'ORD-003', buyer: 'Kamal Hossain', total: '৳25,000', status: 'paid', date: 'Yesterday' },
+  { id: 'ORD-004', buyer: 'Sharmin Akter', total: '৳5,600', status: 'delivered', date: 'Yesterday' },
 ];
 
 const recentProcurements = [
-  { farmer: 'Ramesh Yadav', crop: 'Tomatoes', qty: '500 kg', price: '₹17,500', region: 'Maharashtra' },
-  { farmer: 'Suresh Verma', crop: 'Potatoes', qty: '1000 kg', price: '₹22,000', region: 'Punjab' },
-  { farmer: 'Vikram Singh', crop: 'Rice', qty: '2000 kg', price: '₹1,90,000', region: 'Uttarakhand' },
+  { farmer: 'Abdul Karim', crop: 'Tomatoes', qty: '500 kg', price: '৳17,500', region: 'Dhaka' },
+  { farmer: 'Mohammad Ali', crop: 'Potatoes', qty: '1000 kg', price: '৳22,000', region: 'Rajshahi' },
+  { farmer: 'Jamal Uddin', crop: 'Rice', qty: '2000 kg', price: '৳1,90,000', region: 'Rangpur' },
 ];
 
 const getStatusBadge = (status: string) => {
