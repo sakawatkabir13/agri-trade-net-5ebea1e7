@@ -12,6 +12,7 @@ export function Header() {
   const navLinks = [
     { to: '/', label: 'Home' },
     { to: '/marketplace', label: 'Marketplace' },
+    { to: '/farmer', label: 'KrishokHub' },
     { to: '/about', label: 'About' },
   ];
 
@@ -122,7 +123,7 @@ export function Header() {
               <Link
                 to="/admin"
                 onClick={() => setMobileMenuOpen(false)}
-                className="px-4 py-3 rounded-lg text-sm font-medium text-primary"
+                className="px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:bg-muted"
               >
                 Admin Dashboard
               </Link>
