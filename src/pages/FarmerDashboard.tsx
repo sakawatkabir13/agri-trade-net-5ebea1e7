@@ -135,16 +135,16 @@ export default function FarmerDashboard() {
       <div className="hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-between mb-6">
-            <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center gap-2 group">
               <div className="w-10 h-10 rounded-xl bg-primary-foreground/20 flex items-center justify-center group-hover:scale-105 transition-transform">
                 <Leaf className="w-6 h-6 text-primary-foreground" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-serif font-bold">
-                  Agri<span className="text-accent">Link</span>
+                  Krishok<span className="text-accent">Hub</span>
                 </span>
                 <span className="text-[10px] text-primary-foreground/70 -mt-1">
-                  AgriPro for Farmers
+                  by AgriLink
                 </span>
               </div>
             </Link>
@@ -162,10 +162,10 @@ export default function FarmerDashboard() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-3xl md:text-4xl font-serif font-bold mb-4">
-                Your Farm Command Center
+                Welcome to KrishokHub
               </h1>
               <p className="text-primary-foreground/80 text-lg mb-6">
-                Live prices, instant buyer access, demand alerts, and logistics support—all in one powerful platform.
+                Your all-in-one platform for live prices, instant buyer access, demand alerts, and logistics support.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button className="bg-accent hover:bg-accent/90 text-accent-foreground gap-2">
